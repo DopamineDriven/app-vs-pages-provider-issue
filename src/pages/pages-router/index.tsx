@@ -1,4 +1,5 @@
 import { Provider } from "@/components/SomeProvider";
+import { RscWorkup } from "@/components/SimpleClientComponent/RscWorkup";
 import { SimpleClientComponent, SimpleRSC } from "@/components/registry";
 
 const Page = () => {
@@ -8,7 +9,9 @@ const Page = () => {
       <Provider>
         <SimpleRSC />
 
-        <SimpleClientComponent />
+        <SimpleClientComponent>
+          <RscWorkup />
+        </SimpleClientComponent>
       </Provider>
     </main>
   );
