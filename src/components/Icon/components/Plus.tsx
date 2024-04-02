@@ -1,4 +1,4 @@
-import IconBase from '../IconBase';
+import {IconBase} from '../IconBase';
 
 const Plus: React.FC<any> = props => (
   <IconBase viewBox="0 0 24 24" {...props}>

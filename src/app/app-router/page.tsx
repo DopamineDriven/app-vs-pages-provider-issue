@@ -1,4 +1,3 @@
-import { RscWorkup } from "@/components/SimpleClientComponent/RscWorkup";
 import { Provider } from "@/components/SomeProvider";
 import { SimpleClientComponent, SimpleRSC } from "@/components/registry";
 
@@ -9,9 +8,7 @@ export default function AppRouterIssuePage() {
       <Provider>
         <SimpleRSC />
 
-        <SimpleClientComponent>
-          <RscWorkup />
-        </SimpleClientComponent>
+        <SimpleClientComponent />
       </Provider>
     </main>
   );

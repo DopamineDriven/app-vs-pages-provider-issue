@@ -1,4 +1,4 @@
-import IconBase from '../IconBase';
+import {IconBase} from '../IconBase';
 
 const Download: React.FC<any> = props => (
   <IconBase width="16" height="16" viewBox="0 0 16 16" {...props}>
